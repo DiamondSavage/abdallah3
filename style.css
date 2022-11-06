@@ -6,14 +6,6 @@
     --bgColor-2: #22282a;
     --padding: 8%;
 }
-html,body
-{
-    width: 100vw;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
 *{
     margin: 0;
     padding: 0;
@@ -24,9 +16,15 @@ html{
     font-size: 16px;
     color: var(--lightColor);
     scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
 }
 body{
-    width: 100vw;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 .home{
     width: 100%;
@@ -305,10 +303,5 @@ footer .content-footer .end{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .skills .container-images img{
-        height: 80%;
-        width: 80%;
-        margin: 0;
     }
 }
